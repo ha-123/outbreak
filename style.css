@@ -73,14 +73,27 @@ td{
 }
 .bottom{
 }
-.sign-in{
+.sign-in-content{
     padding:20px;
     display: inline-block;
     border: 1px solid  rgb(201, 196, 196) ;
     border-radius: 10px;
     box-shadow: 10px 10px rgb(1, 1, 26);
     background-color: rgb(201, 196, 196);
+    width: 90vw;
+    margin-left: 2vw;
+    margin-top: 3vh;
 }
+
+#info-text {
+    display: inline;
+}
+
+#sign-in-form-container {
+    display: inline;
+    float: right;
+}
+
 h3{
     text-align:right;
     word-spacing: 10px;
